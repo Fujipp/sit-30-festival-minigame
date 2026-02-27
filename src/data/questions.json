@@ -1,0 +1,1187 @@
+{
+  "level1": [
+    {
+      "id": "L1Q01",
+      "title": "Yellow House Which CSS gives this box the same yellow color as the house?",
+      "prompt": null,
+      "image": "/img/questions/level1_q01.png",
+      "options": [
+        "background-color: yellow;",
+        "font-size: 24px;",
+        "border-radius: 10px;",
+        "padding: 20px;"
+      ],
+      "answer": "background-color: yellow;"
+    },
+    {
+      "id": "L1Q02",
+      "title": "Giant Road Sign Which CSS makes your text AS BIG as the text on this sign?",
+      "prompt": null,
+      "image": "/img/questions/level1_q02.png",
+      "options": [
+        "color: red;",
+        "background: blue;",
+        "border-radius: 8px;",
+        "font-size: 64px;"
+      ],
+      "answer": "font-size: 64px;"
+    },
+    {
+      "id": "L1Q03",
+      "title": "Ghost Image: Which CSS makes this box vanish like a ghost?",
+      "prompt": null,
+      "image": "/img/questions/level1_q03.png",
+      "options": [
+        "background: white;",
+        "color: none;",
+        "display: none;",
+        "padding: 0px;"
+      ],
+      "answer": "display: none;"
+    },
+    {
+      "id": "L1Q04",
+      "title": "Red Apple Which CSS makes this box the same color as the apple?",
+      "prompt": null,
+      "image": "/img/questions/level1_q04.png",
+      "options": [
+        "font-weight: bold;",
+        "background-color: red;",
+        "padding: 16px;",
+        "font-size: 20px;"
+      ],
+      "answer": "background-color: red;"
+    },
+    {
+      "id": "L1Q05",
+      "title": "Ocean / Sky Blue Which CSS gives this box the same blue color as the ocean?",
+      "prompt": null,
+      "image": "/img/questions/level1_q05.png",
+      "options": [
+        "border-radius: 8px;",
+        "font-size: 32px;",
+        "padding: 12px;",
+        "background-color: blue;"
+      ],
+      "answer": "background-color: blue;"
+    },
+    {
+      "id": "L1Q06",
+      "title": "Tiny Ant vs Elephant Which CSS makes text SMALL like the ant?",
+      "prompt": null,
+      "image": "/img/questions/level1_q06.png",
+      "options": [
+        "font-size: 8px;",
+        "font-size: 80px;",
+        "background: gray;",
+        "border-radius: 4px;"
+      ],
+      "answer": "font-size: 8px;"
+    },
+    {
+      "id": "L1Q07",
+      "title": "Black Chalkboard Which CSS makes this box black like the chalkboard?",
+      "prompt": null,
+      "image": "/img/questions/level1_q07.png",
+      "options": [
+        "font-size: 16px;",
+        "padding: 10px;",
+        "background-color: black;",
+        "border-radius: 6px;"
+      ],
+      "answer": "background-color: black;"
+    },
+    {
+      "id": "L1Q08",
+      "title": "Invisible Man Which CSS makes an element completely invisible but still takes up",
+      "prompt": "space?",
+      "image": "/img/questions/level1_q08.png",
+      "options": [
+        "display: none;",
+        "opacity: 0;",
+        "visibility: hidden;",
+        "background: none;"
+      ],
+      "answer": "visibility: hidden;"
+    },
+    {
+      "id": "L1Q09",
+      "title": "Green Grass Field Which CSS gives this box the same green color as the grass?",
+      "prompt": null,
+      "image": "/img/questions/level1_q09.png",
+      "options": [
+        "font-weight: bold;",
+        "font-size: 24px;",
+        "background-color: green;",
+        "padding: 20px;"
+      ],
+      "answer": "background-color: green;"
+    },
+    {
+      "id": "L1Q10",
+      "title": "Wide Cinema Screen Which CSS makes an element as WIDE as this screen?",
+      "prompt": null,
+      "image": "/img/questions/level1_q10.png",
+      "options": [
+        "height: 100%;",
+        "font-size: 100px;",
+        "padding: 100px;",
+        "width: 100%;"
+      ],
+      "answer": "width: 100%;"
+    },
+    {
+      "id": "L1Q11",
+      "title": "Tall Skyscraper Which CSS makes a box as TALL as this skyscraper?",
+      "prompt": null,
+      "image": "/img/questions/level1_q11.png",
+      "options": [
+        "width: 500px;",
+        "font-size: 500px;",
+        "height: 500px;",
+        "padding: 500px;"
+      ],
+      "answer": "height: 500px;"
+    },
+    {
+      "id": "L1Q12",
+      "title": "Orange Pumpkin Which CSS gives this box the same orange color as the pumpkin?",
+      "prompt": null,
+      "image": "/img/questions/level1_q12.png",
+      "options": [
+        "border-radius: 50%;",
+        "font-size: 32px;",
+        "background-color: orange;",
+        "width: 100px;"
+      ],
+      "answer": "background-color: orange;"
+    },
+    {
+      "id": "L1Q13",
+      "title": "Thick Wall vs Thin Paper Which CSS makes text THICK and heavy like the wall?",
+      "prompt": null,
+      "image": "/img/questions/level1_q13.png",
+      "options": [
+        "font-size: thick;",
+        "background: thick;",
+        "padding: thick;",
+        "font-weight: bold;"
+      ],
+      "answer": "font-weight: bold;"
+    },
+    {
+      "id": "L1Q14",
+      "title": "Round Ball Which CSS makes a square box into a circle like this ball?",
+      "prompt": null,
+      "image": "/img/questions/level1_q14.png",
+      "options": [
+        "background: round;",
+        "width: 50%;",
+        "display: circle;",
+        "border-radius: 50%;"
+      ],
+      "answer": "border-radius: 50%;"
+    },
+    {
+      "id": "L1Q15",
+      "title": "White Snow Which CSS makes this box white like the snow?",
+      "prompt": null,
+      "image": "/img/questions/level1_q15.png",
+      "options": [
+        "font-size: white;",
+        "padding: white;",
+        "background-color: white;",
+        "border-radius: white;"
+      ],
+      "answer": "background-color: white;"
+    },
+    {
+      "id": "L1Q16",
+      "title": "Colorful Rainbow Which CSS property controls the COLOR of text?",
+      "prompt": null,
+      "image": "/img/questions/level1_q16.png",
+      "options": [
+        "font-size",
+        "padding",
+        "border-radius",
+        "color"
+      ],
+      "answer": "color"
+    },
+    {
+      "id": "L1Q17",
+      "title": "Brick Wall Border Which CSS adds an outline/border around a box like this wall?",
+      "prompt": null,
+      "image": "/img/questions/level1_q17.png",
+      "options": [
+        "background-color: brown;",
+        "font-size: 4px;",
+        "border: 4px solid brown;",
+        "padding: 4px;"
+      ],
+      "answer": "border: 4px solid brown;"
+    },
+    {
+      "id": "L1Q18",
+      "title": "Cushion / Pillow Which CSS adds soft space INSIDE a box like stuffing in a pillow?",
+      "prompt": null,
+      "image": "/img/questions/level1_q18.png",
+      "options": [
+        "margin: 20px;",
+        "font-size: 20px;",
+        "border-radius: 20px;",
+        "padding: 20px;"
+      ],
+      "answer": "padding: 20px;"
+    },
+    {
+      "id": "L1Q19",
+      "title": "Two Houses Far Apart Which CSS adds space OUTSIDE a box — pushing other",
+      "prompt": "elements away?",
+      "image": "/img/questions/level1_q19.png",
+      "options": [
+        "padding: 40px;",
+        "font-size: 40px;",
+        "margin: 40px;",
+        "width: 40px;"
+      ],
+      "answer": "margin: 40px;"
+    },
+    {
+      "id": "L1Q20",
+      "title": "Purple Lavender Field Which CSS gives this box the same purple color as the",
+      "prompt": "lavender?",
+      "image": "/img/questions/level1_q20.png",
+      "options": [
+        "font-size: purple;",
+        "border: purple;",
+        "padding: purple;",
+        "background-color: purple;"
+      ],
+      "answer": "background-color: purple;"
+    }
+  ],
+  "level2": [
+    {
+      "id": "L2Q01",
+      "title": "Bold Text Which CSS made the text on the RIGHT heavier?",
+      "prompt": null,
+      "image": "/img/questions/level2_q01.png",
+      "options": [
+        "color: bold;",
+        "font-size: bold;",
+        "background: bold;",
+        "font-weight: bold;"
+      ],
+      "answer": "font-weight: bold;"
+    },
+    {
+      "id": "L2Q02",
+      "title": "Blue Text Which CSS turned the text on the RIGHT blue?",
+      "prompt": null,
+      "image": "/img/questions/level2_q02.png",
+      "options": [
+        "color: blue;",
+        "background-color: blue;",
+        "border: 2px solid blue;",
+        "font-weight: blue;"
+      ],
+      "answer": "color: blue;"
+    },
+    {
+      "id": "L2Q03",
+      "title": "Big Text Which CSS made the text on the RIGHT bigger?",
+      "prompt": null,
+      "image": "/img/questions/level2_q03.png",
+      "options": [
+        "font-weight: 48px;",
+        "padding: 48px;",
+        "color: 48px;",
+        "font-size: 48px;"
+      ],
+      "answer": "font-size: 48px;"
+    },
+    {
+      "id": "L2Q04",
+      "title": "Underlined Text Which CSS added the underline on the RIGHT?",
+      "prompt": null,
+      "image": "/img/questions/level2_q04.png",
+      "options": [
+        "font-weight: underline;",
+        "border: underline;",
+        "text-decoration: underline;",
+        "color: underline;"
+      ],
+      "answer": "text-decoration: underline;"
+    },
+    {
+      "id": "L2Q05",
+      "title": "Centered Text Which CSS centered the text on the RIGHT?",
+      "prompt": null,
+      "image": "/img/questions/level2_q05.png",
+      "options": [
+        "font-size: center;",
+        "padding: center;",
+        "display: center;",
+        "text-align: center;"
+      ],
+      "answer": "text-align: center;"
+    },
+    {
+      "id": "L2Q06",
+      "title": "Italic Text Which CSS made the text on the RIGHT slanted?",
+      "prompt": null,
+      "image": "/img/questions/level2_q06.png",
+      "options": [
+        "font-weight: italic;",
+        "text-decoration: italic;",
+        "font-style: italic;",
+        "color: italic;"
+      ],
+      "answer": "font-style: italic;"
+    },
+    {
+      "id": "L2Q07",
+      "title": "Red Text Which CSS turned the text on the RIGHT red?",
+      "prompt": null,
+      "image": "/img/questions/level2_q07.png",
+      "options": [
+        "background-color: red;",
+        "border: red;",
+        "font-size: red;",
+        "color: red;"
+      ],
+      "answer": "color: red;"
+    },
+    {
+      "id": "L2Q08",
+      "title": "Uppercase Text Which CSS made the text ALL CAPS on the RIGHT?",
+      "prompt": null,
+      "image": "/img/questions/level2_q08.png",
+      "options": [
+        "font-weight: uppercase;",
+        "font-size: uppercase;",
+        "text-transform: uppercase;",
+        "color: uppercase;"
+      ],
+      "answer": "text-transform: uppercase;"
+    },
+    {
+      "id": "L2Q09",
+      "title": "Letter Spacing Which CSS spread the letters apart on the RIGHT?",
+      "prompt": null,
+      "image": "/img/questions/level2_q09.png",
+      "options": [
+        "font-size: 8px;",
+        "padding: 8px;",
+        "font-weight: 8px;",
+        "letter-spacing: 8px;"
+      ],
+      "answer": "letter-spacing: 8px;"
+    },
+    {
+      "id": "L2Q10",
+      "title": "Line Height Which CSS added space between the lines on the RIGHT?",
+      "prompt": null,
+      "image": "/img/questions/level2_q10.png",
+      "options": [
+        "padding: 2;",
+        "font-size: 2;",
+        "margin: 2;",
+        "line-height: 2;"
+      ],
+      "answer": "line-height: 2;"
+    },
+    {
+      "id": "L2Q11",
+      "title": "Strikethrough Text Which CSS added the line through the text on the RIGHT?",
+      "prompt": null,
+      "image": "/img/questions/level2_q11.png",
+      "options": [
+        "text-align: line-through;",
+        "font-weight: line-through;",
+        "border: line-through;",
+        "text-decoration: line-through;"
+      ],
+      "answer": "text-decoration: line-through;"
+    },
+    {
+      "id": "L2Q12",
+      "title": "Green Background Which CSS gave the RIGHT box a green background?",
+      "prompt": null,
+      "image": "/img/questions/level2_q12.png",
+      "options": [
+        "color: green;",
+        "border: green;",
+        "font-size: green;",
+        "background-color: green;"
+      ],
+      "answer": "background-color: green;"
+    },
+    {
+      "id": "L2Q13",
+      "title": "Wide Box Which CSS made the RIGHT box wider?",
+      "prompt": null,
+      "image": "/img/questions/level2_q13.png",
+      "options": [
+        "height: 300px;",
+        "font-size: 300px;",
+        "padding: 300px;",
+        "width: 300px;"
+      ],
+      "answer": "width: 300px;"
+    },
+    {
+      "id": "L2Q14",
+      "title": "Tall Box Which CSS made the RIGHT box taller?",
+      "prompt": null,
+      "image": "/img/questions/level2_q14.png",
+      "options": [
+        "width: 200px;",
+        "font-size: 200px;",
+        "margin: 200px;",
+        "height: 200px;"
+      ],
+      "answer": "height: 200px;"
+    },
+    {
+      "id": "L2Q15",
+      "title": "Rounded Box Which CSS rounded the corners on the RIGHT box?",
+      "prompt": null,
+      "image": "/img/questions/level2_q15.png",
+      "options": [
+        "background: round;",
+        "padding: 12px;",
+        "font-size: 12px;",
+        "border-radius: 12px;"
+      ],
+      "answer": "border-radius: 12px;"
+    },
+    {
+      "id": "L2Q16",
+      "title": "Right Aligned Text Which CSS pushed the text to the RIGHT edge?",
+      "prompt": null,
+      "image": "/img/questions/level2_q16.png",
+      "options": [
+        "text-align: left;",
+        "text-align: center;",
+        "padding: right;",
+        "text-align: right;"
+      ],
+      "answer": "text-align: right;"
+    },
+    {
+      "id": "L2Q17",
+      "title": "Thick Border Which CSS added the thick border on the RIGHT box?",
+      "prompt": null,
+      "image": "/img/questions/level2_q17.png",
+      "options": [
+        "padding: 4px solid black;",
+        "margin: 4px solid black;",
+        "font-size: 4px solid black;",
+        "border: 4px solid black;"
+      ],
+      "answer": "border: 4px solid black;"
+    },
+    {
+      "id": "L2Q18",
+      "title": "Small Text Which CSS made the text on the RIGHT smaller?",
+      "prompt": null,
+      "image": "/img/questions/level2_q18.png",
+      "options": [
+        "font-weight: 10px;",
+        "color: 10px;",
+        "padding: 10px;",
+        "font-size: 10px;"
+      ],
+      "answer": "font-size: 10px;"
+    },
+    {
+      "id": "L2Q19",
+      "title": "Yellow Background Which CSS gave the RIGHT box a yellow background?",
+      "prompt": null,
+      "image": "/img/questions/level2_q19.png",
+      "options": [
+        "color: yellow;",
+        "border: yellow;",
+        "font-weight: yellow;",
+        "background-color: yellow;"
+      ],
+      "answer": "background-color: yellow;"
+    },
+    {
+      "id": "L2Q20",
+      "title": "No Underline Which CSS removed the underline from the link on the RIGHT?",
+      "prompt": null,
+      "image": "/img/questions/level2_q20.png",
+      "options": [
+        "font-weight: none;",
+        "color: none;",
+        "border: none;",
+        "text-decoration: none;"
+      ],
+      "answer": "text-decoration: none;"
+    }
+  ],
+  "level3": [
+    {
+      "id": "L3Q01",
+      "title": "Pill Button Which border-radius creates the pill-shaped button (3rd one)?",
+      "prompt": null,
+      "image": "/img/questions/level3_q01.png",
+      "options": [
+        "border-radius: 0px;",
+        "border-radius: 4px;",
+        "border-radius: 50px;",
+        "border-radius: 50%;"
+      ],
+      "answer": "border-radius: 50px;"
+    },
+    {
+      "id": "L3Q02",
+      "title": "Semi-Transparent Box Which CSS makes the box on the RIGHT semi-transparent?",
+      "prompt": null,
+      "image": "/img/questions/level3_q02.png",
+      "options": [
+        "color: transparent;",
+        "background: none;",
+        "opacity: 0.5;",
+        "visibility: hidden;"
+      ],
+      "answer": "opacity: 0.5;"
+    },
+    {
+      "id": "L3Q03",
+      "title": "Row Layout Which CSS puts the boxes in a ROW like the right side?",
+      "prompt": null,
+      "image": "/img/questions/level3_q03.png",
+      "options": [
+        "display: flex;",
+        "display: block;",
+        "display: inline;",
+        "float: left;"
+      ],
+      "answer": "display: flex;"
+    },
+    {
+      "id": "L3Q04",
+      "title": "Centered Box Which CSS centers the inner box both horizontally and vertically?",
+      "prompt": null,
+      "image": "/img/questions/level3_q04.png",
+      "options": [
+        "display: flex; justify-content: left;",
+        "margin: auto;",
+        "display: flex; justify-content: center; align-items: center;",
+        "display: flex; align-items: left;"
+      ],
+      "answer": "display: flex; justify-content: center; align-items: center;"
+    },
+    {
+      "id": "L3Q05",
+      "title": "Space Between Items Which CSS adds equal space BETWEEN the boxes?",
+      "prompt": null,
+      "image": "/img/questions/level3_q05.png",
+      "options": [
+        "padding: 16px;",
+        "margin-left: 16px;",
+        "border: 16px;",
+        "gap: 16px;"
+      ],
+      "answer": "gap: 16px;"
+    },
+    {
+      "id": "L3Q06",
+      "title": "Full Width Box Which CSS makes the box fill the full width?",
+      "prompt": null,
+      "image": "/img/questions/level3_q06.png",
+      "options": [
+        "width: auto;",
+        "display: flex;",
+        "width: 100%;",
+        "margin: 0;"
+      ],
+      "answer": "width: 100%;"
+    },
+    {
+      "id": "L3Q07",
+      "title": "Hover Color Change Which CSS changes the button color when you hover over it?",
+      "prompt": null,
+      "image": "/img/questions/level3_q07.png",
+      "options": [
+        "button.blue { background: blue; }",
+        "button:focus { background: blue; }",
+        "button:active { background: blue; }",
+        "button:hover { background: blue; }"
+      ],
+      "answer": "button:hover { background: blue; }"
+    },
+    {
+      "id": "L3Q08",
+      "title": "Cursor Pointer Which CSS changes the cursor to a hand pointer?",
+      "prompt": null,
+      "image": "/img/questions/level3_q08.png",
+      "options": [
+        "cursor: hand;",
+        "cursor: arrow;",
+        "cursor: default;",
+        "cursor: pointer;"
+      ],
+      "answer": "cursor: pointer;"
+    },
+    {
+      "id": "L3Q09",
+      "title": "Overflow Hidden Which CSS clips the content so it stays inside the box?",
+      "prompt": null,
+      "image": "/img/questions/level3_q09.png",
+      "options": [
+        "display: none;",
+        "visibility: hidden;",
+        "overflow: hidden;",
+        "clip: hidden;"
+      ],
+      "answer": "overflow: hidden;"
+    },
+    {
+      "id": "L3Q10",
+      "title": "Box Sizing Which CSS makes padding stay INSIDE the box without making it bigger?",
+      "prompt": null,
+      "image": "/img/questions/level3_q10.png",
+      "options": [
+        "box-sizing: content-box;",
+        "padding: 0;",
+        "width: auto;",
+        "box-sizing: border-box;"
+      ],
+      "answer": "box-sizing: border-box;"
+    },
+    {
+      "id": "L3Q11",
+      "title": "Position Relative Which CSS moves the box from its normal position without affecting",
+      "prompt": "other elements?",
+      "image": "/img/questions/level3_q11.png",
+      "options": [
+        "position: absolute; top: 20px; left: 20px;",
+        "margin: 20px;",
+        "position: relative; top: 20px; left: 20px;",
+        "display: flex; top: 20px;"
+      ],
+      "answer": "position: relative; top: 20px; left: 20px;"
+    },
+    {
+      "id": "L3Q12",
+      "title": "Z-Index Image: Two overlapping cards — left version card A is behind card B, right",
+      "prompt": "version card A is on top Which CSS brings card A in front?",
+      "image": "/img/questions/level3_q12.png",
+      "options": [
+        "position: front;",
+        "layer: 1;",
+        "display: top;",
+        "z-index: 1;"
+      ],
+      "answer": "z-index: 1;"
+    },
+    {
+      "id": "L3Q13",
+      "title": "Flex Direction Column Which CSS stacks flex items vertically?",
+      "prompt": null,
+      "image": "/img/questions/level3_q13.png",
+      "options": [
+        "flex-direction: row;",
+        "flex-wrap: wrap;",
+        "align-items: column;",
+        "flex-direction: column;"
+      ],
+      "answer": "flex-direction: column;"
+    },
+    {
+      "id": "L3Q14",
+      "title": "Space Between Which CSS spreads the boxes evenly with space between them?",
+      "prompt": null,
+      "image": "/img/questions/level3_q14.png",
+      "options": [
+        "align-items: space-between;",
+        "gap: auto;",
+        "flex-wrap: space-between;",
+        "justify-content: space-between;"
+      ],
+      "answer": "justify-content: space-between;"
+    },
+    {
+      "id": "L3Q15",
+      "title": "Max Width Which CSS stops the box from getting wider than 600px?",
+      "prompt": null,
+      "image": "/img/questions/level3_q15.png",
+      "options": [
+        "width: 600px;",
+        "min-width: 600px;",
+        "overflow: 600px;",
+        "max-width: 600px;"
+      ],
+      "answer": "max-width: 600px;"
+    },
+    {
+      "id": "L3Q16",
+      "title": "Aspect Ratio Which CSS keeps the box always a perfect square regardless of width?",
+      "prompt": null,
+      "image": "/img/questions/level3_q16.png",
+      "options": [
+        "width: height;",
+        "object-fit: square;",
+        "box-sizing: square;",
+        "aspect-ratio: 1 / 1;"
+      ],
+      "answer": "aspect-ratio: 1 / 1;"
+    },
+    {
+      "id": "L3Q17",
+      "title": "Object Fit Which CSS makes the image fill the box without stretching?",
+      "prompt": null,
+      "image": "/img/questions/level3_q17.png",
+      "options": [
+        "image-size: cover;",
+        "background-size: cover;",
+        "width: 100%; height: auto;",
+        "object-fit: cover;"
+      ],
+      "answer": "object-fit: cover;"
+    },
+    {
+      "id": "L3Q18",
+      "title": "Sticky Header Which CSS makes the header stick to the top when scrolling?",
+      "prompt": null,
+      "image": "/img/questions/level3_q18.png",
+      "options": [
+        "position: fixed; top: 0;",
+        "position: absolute; top: 0;",
+        "display: sticky;",
+        "position: sticky; top: 0;"
+      ],
+      "answer": "position: sticky; top: 0;"
+    },
+    {
+      "id": "L3Q19",
+      "title": "Flex Wrap Which CSS allows flex items to wrap onto the next line?",
+      "prompt": null,
+      "image": "/img/questions/level3_q19.png",
+      "options": [
+        "flex-direction: wrap;",
+        "overflow: wrap;",
+        "display: wrap;",
+        "flex-wrap: wrap;"
+      ],
+      "answer": "flex-wrap: wrap;"
+    },
+    {
+      "id": "L3Q20",
+      "title": "Transition Which CSS makes the color change happen smoothly?",
+      "prompt": null,
+      "image": "/img/questions/level3_q20.png",
+      "options": [
+        "animation: color 0.3s;",
+        "hover-speed: 0.3s;",
+        "change: background 0.3s;",
+        "transition: background 0.3s;"
+      ],
+      "answer": "transition: background 0.3s;"
+    }
+  ],
+  "level4": [
+    {
+      "id": "L4Q01",
+      "title": "Floating Card Shadow Which CSS creates the soft floating shadow on the LEFT card?",
+      "prompt": null,
+      "image": "/img/questions/level4_q01.png",
+      "options": [
+        "box-shadow: 0 4px 20px rgba(0,0,0,0.15);",
+        "box-shadow: 4px 4px 0px black;",
+        "box-shadow: inset 0 4px 10px gray;",
+        "box-shadow: 0 0 0 4px red;"
+      ],
+      "answer": "box-shadow: 0 4px 20px rgba(0,0,0,0.15);"
+    },
+    {
+      "id": "L4Q02",
+      "title": "Truncated Text Which CSS cuts the text off with \"...\"?",
+      "prompt": null,
+      "image": "/img/questions/level4_q02.png",
+      "options": [
+        "overflow: hidden;",
+        "word-break: break-all;",
+        "white-space: nowrap; overflow: hidden; text-overflow:  ellipsis;",
+        "text-overflow: ellipsis;"
+      ],
+      "answer": "white-space: nowrap; overflow: hidden; text-overflow:  ellipsis;"
+    },
+    {
+      "id": "L4Q03",
+      "title": "CSS Specificity",
+      "prompt": "What color is the text?",
+      "image": null,
+      "options": [
+        "Blue — tag wins",
+        "Green — class wins",
+        "Red — ID wins",
+        "All 3 mix together"
+      ],
+      "answer": "Red — ID wins",
+      "code": "p { color: blue; }\n.text { color: green; }\n#title { color: red; }\n\n<p class=\"text\" id=\"title\">Hello</p>"
+    },
+    {
+      "id": "L4Q04",
+      "title": "First Child Which CSS selector targets ONLY the first item?",
+      "prompt": null,
+      "image": "/img/questions/level4_q04.png",
+      "options": [
+        "li.first { background: yellow; }",
+        "li:last-child { background: yellow; }",
+        "li:nth-child(2) { background: yellow; }",
+        "li:first-child { background: yellow; }"
+      ],
+      "answer": "li:first-child { background: yellow; }"
+    },
+    {
+      "id": "L4Q05",
+      "title": "Last Child Which CSS removes the border from the LAST item only?",
+      "prompt": null,
+      "image": "/img/questions/level4_q05.png",
+      "options": [
+        "li:first-child { border: none; }",
+        "li:nth-child(1) { border: none; }",
+        "li.last { border: none; }",
+        "li:last-child { border: none; }"
+      ],
+      "answer": "li:last-child { border: none; }"
+    },
+    {
+      "id": "L4Q06",
+      "title": "Nth Child Zebra Stripe Which CSS adds background color to every EVEN row?",
+      "prompt": null,
+      "image": "/img/questions/level4_q06.png",
+      "options": [
+        "tr:odd { background: #f0f0f0; }",
+        "tr:every-other { background: #f0f0f0; }",
+        "tr:nth-child(2) { background: #f0f0f0; }",
+        "tr:nth-child(even) { background: #f0f0f0; }"
+      ],
+      "answer": "tr:nth-child(even) { background: #f0f0f0; }"
+    },
+    {
+      "id": "L4Q07",
+      "title": "Before Pseudo Element Which CSS adds a decorative element before the heading",
+      "prompt": "without adding HTML?",
+      "image": "/img/questions/level4_q07.png",
+      "options": [
+        "h2.before { content: \"\"; display: block; }",
+        "h2:first-child { content: \"\"; }",
+        "h2::after { content: \"\"; display: block; }",
+        "h2::before { content: \"\"; display: block; }"
+      ],
+      "answer": "h2::before { content: \"\"; display: block; }"
+    },
+    {
+      "id": "L4Q08",
+      "title": "After Pseudo Element Which CSS adds a checkmark after each list item automatically?",
+      "prompt": null,
+      "image": "/img/questions/level4_q08.png",
+      "options": [
+        "li::before { content: \"✓\"; }",
+        "li:after-child { content: \"✓\"; }",
+        "li.after { content: \"✓\"; }",
+        "li::after { content: \"✓\"; }"
+      ],
+      "answer": "li::after { content: \"✓\"; }"
+    },
+    {
+      "id": "L4Q09",
+      "title": "Focus State Which CSS styles the input when a user clicks into it?",
+      "prompt": null,
+      "image": "/img/questions/level4_q09.png",
+      "options": [
+        "input:hover { border-color: blue; }",
+        "input:active { border-color: blue; }",
+        "input:checked { border-color: blue; }",
+        "input:focus { border-color: blue; outline: none; }"
+      ],
+      "answer": "input:focus { border-color: blue; outline: none; }"
+    },
+    {
+      "id": "L4Q10",
+      "title": "Not Selector Which CSS colors all buttons EXCEPT the disabled one?",
+      "prompt": null,
+      "image": "/img/questions/level4_q10.png",
+      "options": [
+        "button.enabled { background: blue; }",
+        "button:except(.disabled) { background: blue; }",
+        "button:no(.disabled) { background: blue; }",
+        "button:not(.disabled) { background: blue; }"
+      ],
+      "answer": "button:not(.disabled) { background: blue; }"
+    },
+    {
+      "id": "L4Q11",
+      "title": "Child Combinator Which CSS targets ONLY direct children of .menu?",
+      "prompt": null,
+      "image": "/img/questions/level4_q11.png",
+      "options": [
+        ".menu li { color: red; }",
+        ".menu * { color: red; }",
+        ".menu + li { color: red; }",
+        ".menu > li { color: red; }"
+      ],
+      "answer": ".menu > li { color: red; }"
+    },
+    {
+      "id": "L4Q12",
+      "title": "Adjacent Sibling Which CSS selects the label immediately AFTER an input?",
+      "prompt": null,
+      "image": "/img/questions/level4_q12.png",
+      "options": [
+        "input ~ label { color: red; }",
+        "input > label { color: red; }",
+        "input label { color: red; }",
+        "input + label { color: red; }"
+      ],
+      "answer": "input + label { color: red; }"
+    },
+    {
+      "id": "L4Q13",
+      "title": "General Sibling Which CSS selects ALL siblings after the heading?",
+      "prompt": null,
+      "image": "/img/questions/level4_q13.png",
+      "options": [
+        "h2 + p { color: grey; }",
+        "h2 > p { color: grey; }",
+        "h2 p { color: grey; }",
+        "h2 ~ p { color: grey; }"
+      ],
+      "answer": "h2 ~ p { color: grey; }"
+    },
+    {
+      "id": "L4Q14",
+      "title": "Attribute Selector Which CSS targets links with target=\"_blank\"?",
+      "prompt": null,
+      "image": "/img/questions/level4_q14.png",
+      "options": [
+        "a.blank { color: red; }",
+        "a:target { color: red; }",
+        "a[blank] { color: red; }",
+        "a[target=\"_blank\"] { color: red; }"
+      ],
+      "answer": "a[target=\"_blank\"] { color: red; }"
+    },
+    {
+      "id": "L4Q15",
+      "title": "Placeholder Style Which CSS styles the placeholder text inside an input?",
+      "prompt": null,
+      "image": "/img/questions/level4_q15.png",
+      "options": [
+        "input:focus { color: grey; }",
+        "input::before { color: grey; }",
+        "input[placeholder] { color: grey; }",
+        "input::placeholder { color: grey; font-style: italic; }"
+      ],
+      "answer": "input::placeholder { color: grey; font-style: italic; }"
+    },
+    {
+      "id": "L4Q16",
+      "title": "First Letter Which CSS makes only the first letter of a paragraph large?",
+      "prompt": null,
+      "image": "/img/questions/level4_q16.png",
+      "options": [
+        "p:first-child { font-size: 3rem; }",
+        "p::before { font-size: 3rem; }",
+        "p:first-letter { font-size: 3rem; }",
+        "p::first-letter { font-size: 3rem; }"
+      ],
+      "answer": "p::first-letter { font-size: 3rem; }"
+    },
+    {
+      "id": "L4Q17",
+      "title": "Checked State Which CSS targets a checkbox when it is checked?",
+      "prompt": null,
+      "image": "/img/questions/level4_q17.png",
+      "options": [
+        "input:focus { background: green; }",
+        "input:selected { background: green; }",
+        "input:active { background: green; }",
+        "input:checked + label { background: green; }"
+      ],
+      "answer": "input:checked + label { background: green; }"
+    },
+    {
+      "id": "L4Q18",
+      "title": "Has Selector Which CSS selects a card ONLY if it contains an image?",
+      "prompt": null,
+      "image": "/img/questions/level4_q18.png",
+      "options": [
+        ".card img { border: blue; }",
+        ".card:contains(img) { border: 2px solid blue; }",
+        ".card:include(img) { border: 2px solid blue; }",
+        ".card:has(img) { border: 2px solid blue; }"
+      ],
+      "answer": ".card:has(img) { border: 2px solid blue; }"
+    },
+    {
+      "id": "L4Q19",
+      "title": "Root Variable",
+      "prompt": "If you change --primary to red, what happens?",
+      "image": null,
+      "options": [
+        "Only the h1 turns red",
+        "Only the button turns red",
+        "Nothing changes — var() is read-only",
+        "Both h1 and button turn red"
+      ],
+      "answer": "Both h1 and button turn red",
+      "code": ":root { --primary: #e8a020; }\n\nh1 { color: var(--primary); }\nbutton { background: var(--primary); }"
+    },
+    {
+      "id": "L4Q20",
+      "title": "Is Selector Which CSS targets h1, h2, AND h3 all at once using the modern way?",
+      "prompt": null,
+      "image": "/img/questions/level4_q20.png",
+      "options": [
+        "h1, h2, h3 { color: #1a1612; }",
+        "heading { color: #1a1612; }",
+        "h1 + h2 + h3 { color: #1a1612; }",
+        ":is(h1, h2, h3) { color: #1a1612; }"
+      ],
+      "answer": ":is(h1, h2, h3) { color: #1a1612; }"
+    }
+  ],
+  "level5": [
+    {
+      "id": "L5Q01",
+      "title": "Grid Fractions Which CSS creates this layout?",
+      "prompt": null,
+      "image": "/img/questions/level5_q01.png",
+      "options": [
+        "grid-template-columns: 1fr 1fr 1fr;",
+        "grid-template-columns: 2fr 1fr 1fr;",
+        "grid-template-columns: repeat(3, 1fr);",
+        "grid-template-columns: 200px auto auto;"
+      ],
+      "answer": "grid-template-columns: 2fr 1fr 1fr;"
+    },
+    {
+      "id": "L5Q02",
+      "title": "CSS Variable Image: Code shown on screen",
+      "prompt": "What color is the button background?",
+      "image": null,
+      "options": [
+        "No color — var() doesn't work here",
+        "#7c6aff (purple)",
+        "The color of the :root element",
+        "CSS error — invalid syntax"
+      ],
+      "answer": "#7c6aff (purple)",
+      "code": ":root { --brand-color: #7c6aff; }\n.button { background: var(--brand-color); }"
+    },
+    {
+      "id": "L5Q03",
+      "title": "Badge Position Which CSS on the badge pins it to the card corner?",
+      "prompt": null,
+      "image": "/img/questions/level5_q03.png",
+      "options": [
+        "position: fixed; top: 0; right: 0;",
+        "position: static; top: 0; right: 0;",
+        "position: absolute; top: 0; right: 0;",
+        "position: sticky; top: 0; right: 0;"
+      ],
+      "answer": "position: absolute; top: 0; right: 0;"
+    },
+    {
+      "id": "L5Q04",
+      "title": "Clamp Which CSS makes the font size scale fluidly between a min and max?",
+      "prompt": null,
+      "image": "/img/questions/level5_q04.png",
+      "options": [
+        "font-size: min(1rem, 3rem);",
+        "font-size: between(1rem, 3rem);",
+        "font-size: scale(1rem, 3vw, 3rem);",
+        "font-size: clamp(1rem, 3vw, 3rem);"
+      ],
+      "answer": "font-size: clamp(1rem, 3vw, 3rem);"
+    },
+    {
+      "id": "L5Q05",
+      "title": "Grid Area Which CSS defines this layout using named grid areas?",
+      "prompt": null,
+      "image": "/img/questions/level5_q05.png",
+      "options": [
+        "grid-template-areas:​   \"header header\"​   \"sidebar main\"​   \"footer footer\";",
+        "grid-template-areas:​   \"header header\"​   \"sidebar main\"​   \"footer footer\";",
+        "grid-areas: header sidebar main footer;",
+        "grid-template-columns:​   \"header\" \"sidebar\" \"main\" \"footer\";"
+      ],
+      "answer": "grid-template-areas:​   \"header header\"​   \"sidebar main\"​   \"footer footer\";"
+    },
+    {
+      "id": "L5Q06",
+      "title": "Custom Property Fallback",
+      "prompt": "--missing-color is not defined anywhere. What color is the box?",
+      "image": null,
+      "options": [
+        "Transparent — variable is missing",
+        "Black — CSS default",
+        "CSS error — crashes silently",
+        "Coral — fallback value is used"
+      ],
+      "answer": "Coral — fallback value is used",
+      "code": ".box {\n  background: var(--missing-color, coral);\n}"
+    },
+    {
+      "id": "L5Q07",
+      "title": "Counter Which CSS generates automatic counters like this?",
+      "prompt": null,
+      "image": "/img/questions/level5_q07.png",
+      "options": [
+        "li::before { content: \"Step\"; }",
+        "li { list-style: step-counter; }",
+        "li { list-style: step-counter; }",
+        "ol { counter-reset: step; }​ li::before {​   counter-increment: step;​   content: \"Step \" counter(step) \" →\";​ }"
+      ],
+      "answer": "ol { counter-reset: step; }​ li::before {​   counter-increment: step;​   content: \"Step \" counter(step) \" →\";​ }"
+    },
+    {
+      "id": "L5Q08",
+      "title": "Logical Properties Which CSS property automatically flips for right-to-left languages?",
+      "prompt": null,
+      "image": null,
+      "options": [
+        "margin-left: 16px;",
+        "padding-left: 16px;",
+        "border-left: 2px solid;",
+        "margin-inline-start: 16px;"
+      ],
+      "answer": "margin-inline-start: 16px;"
+    },
+    {
+      "id": "L5Q09",
+      "title": "Container Query Which CSS makes a component respond to its PARENT container size",
+      "prompt": "instead of the screen size?",
+      "image": "/img/questions/level5_q09.png",
+      "options": [
+        "@media (min-width: 600px) { .card { flex-direction: row; } }",
+        "@parent (min-width: 600px) { .card { flex-direction: row; } }",
+        "@responsive (min-width: 600px) { .card { flex-direction: row; } }",
+        ".wrapper { container-type: inline-size; }​ @container (min-width: 600px) {​   .card { flex-direction: row; }​ }"
+      ],
+      "answer": ".wrapper { container-type: inline-size; }​ @container (min-width: 600px) {​   .card { flex-direction: row; }​ }"
+    },
+    {
+      "id": "L5Q10",
+      "title": "Cascade Layer",
+      "prompt": "Which layer's color wins?",
+      "image": null,
+      "options": [
+        "Grey — base is more specific",
+        "Grey — base is declared first",
+        "They cancel each other out — no color",
+        "Blue — later layers always win over earlier ones"
+      ],
+      "answer": "Blue — later layers always win over earlier ones",
+      "code": "@layer base {\n  button { background: grey; }\n}\n@layer theme {\n  button { background: blue; }\n}"
+    }
+  ]
+}
