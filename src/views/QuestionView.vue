@@ -42,6 +42,7 @@
       </div>
 
       <div class="question-footer">
+        <button @click="resetChoice" class="back-btn reset-btn" :disabled="selectedOptionIndex === null">RESET</button>
         <button @click="goBack" class="back-btn">BACK</button>
       </div>
     </div>
@@ -137,9 +138,14 @@ const selectChoice = (index) => {
 
 const choiceClass = (option, index) => {
   if (selectedOptionIndex.value === null) return ''
-  if (option === game.activeQuestion.answer) return 'choice-btn--correct'
-  if (index === selectedOptionIndex.value) return 'choice-btn--wrong'
+  if (index === selectedOptionIndex.value) {
+    return option === game.activeQuestion.answer ? 'choice-btn--correct' : 'choice-btn--wrong'
+  }
   return 'choice-btn--dim'
+}
+
+const resetChoice = () => {
+  selectedOptionIndex.value = null
 }
 
 const goBack = () => {
@@ -402,6 +408,17 @@ const goBack = () => {
 
 .back-btn:active {
   transform: translateY(1px) scale(0.98);
+}
+
+.back-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.reset-btn {
+  background: rgba(43, 115, 193, 0.55);
 }
 
 @media (max-width: 980px) {
