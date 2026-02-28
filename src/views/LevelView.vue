@@ -121,13 +121,16 @@ const onSelect = (level) => {
 }
 
 .level-grid {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 0.9rem;
+  width: 100%;
+  max-width: 75%;
+  margin-inline: auto;
 }
 
 .level-button {
+  width: 100%;
   padding: 0.95rem 1.1rem;
   border-radius: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -173,22 +176,13 @@ const onSelect = (level) => {
   .icon-bottom-right { width: 8rem; }
   .level-content { padding-top: 3.4rem; gap: 0.9rem; }
   .level-title { letter-spacing: 0.09em; }
-  .level-grid { gap: 0.55rem; }
+  .level-grid { gap: 0.55rem; max-width: 92%; }
   .level-button { min-width: 110px; font-size: 0.95rem; }
 }
 
 @media (max-width: 480px) {
   .level-content { padding-top: 3rem; }
-  .level-grid { padding-inline: 0.25rem; }
+  .level-grid { max-width: 96%; padding-inline: 0.25rem; }
   .level-button { min-width: 102px; padding: 0.7rem 0.8rem; }
-}
-
-@media (max-width: 640px) {
-  .level-grid {
-    width: 100%;
-    overflow-x: auto;
-    justify-content: flex-start;
-    padding-inline: 0.5rem;
-  }
 }
 </style>

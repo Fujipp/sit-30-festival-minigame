@@ -117,10 +117,12 @@ const toQuestionLabel = (index, id) => {
 
 .question-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: clamp(0.75rem, 1.15vw, 1rem);
   width: 100%;
+  max-width: 75%;
   margin: 0;
+  margin-inline: auto;
   padding: 0.25rem 0.2rem;
   align-content: start;
   flex: 1;
@@ -190,18 +192,25 @@ const toQuestionLabel = (index, id) => {
   .icon-bottom-right { width: 8rem; }
   .board-content { padding: 3.7rem 0.55rem 0.8rem; }
   .board-title { font-size: 1.05rem; }
-  .question-grid { gap: 0.52rem; }
+  .question-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 92%;
+    gap: 0.52rem;
+  }
   .question-button { min-height: 68px; font-size: 0.98rem; }
 }
 
 @media (max-width: 480px) {
-  .question-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .question-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 96%;
+  }
   .board-back { font-size: 0.75rem; padding: 0.45rem 0.78rem; }
 }
 
 @media (max-width: 900px) {
   .board-content { padding-top: 4.4rem; }
-  .question-grid { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+  .question-grid { max-width: 88%; }
 }
 
 @media (max-width: 640px) {
