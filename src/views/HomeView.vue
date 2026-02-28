@@ -103,4 +103,14 @@ const router = useRouter()
     letter-spacing: 0.14em;
   }
 }
+
+@media (max-width: 480px) {
+  .start-button {
+    min-width: 188px;
+    padding: 0.86rem 2rem;
+    font-size: 1.05rem;
+    letter-spacing: 0.1em;
+  }
+}
+
 </style>

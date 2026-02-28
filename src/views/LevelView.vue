@@ -159,6 +159,30 @@ const onSelect = (level) => {
   transform: translateY(1px) scale(0.98);
 }
 
+
+@media (max-width: 1024px) {
+  .icon-top-left { width: 15rem; }
+  .icon-bottom-right { width: 11rem; }
+  .level-content { padding-top: 4rem; }
+  .level-button { padding: 0.82rem 0.95rem; }
+}
+
+@media (max-width: 768px) {
+  .icon-top-left { width: 11rem; top: 0.5rem; left: 0.7rem; }
+  .icon-bottom-left { width: 3.6rem; }
+  .icon-bottom-right { width: 8rem; }
+  .level-content { padding-top: 3.4rem; gap: 0.9rem; }
+  .level-title { letter-spacing: 0.09em; }
+  .level-grid { gap: 0.55rem; }
+  .level-button { min-width: 110px; font-size: 0.95rem; }
+}
+
+@media (max-width: 480px) {
+  .level-content { padding-top: 3rem; }
+  .level-grid { padding-inline: 0.25rem; }
+  .level-button { min-width: 102px; padding: 0.7rem 0.8rem; }
+}
+
 @media (max-width: 640px) {
   .level-grid {
     width: 100%;

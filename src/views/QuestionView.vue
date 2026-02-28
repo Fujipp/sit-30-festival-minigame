@@ -385,6 +385,8 @@ const goBack = () => {
   margin-top: 0.8rem;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.55rem;
 }
 
 .back-btn {
@@ -419,6 +421,37 @@ const goBack = () => {
 
 .reset-btn {
   background: rgba(43, 115, 193, 0.55);
+}
+
+
+@media (max-width: 1200px) {
+  .icon-top-left { width: 15rem; }
+  .icon-bottom-right { width: 11rem; }
+  .question-content { padding-top: 4.2rem; }
+}
+
+@media (max-width: 768px) {
+  .icon-top-left { width: 11rem; top: 0.5rem; left: 0.7rem; }
+  .icon-bottom-left { width: 3.6rem; }
+  .icon-bottom-right { width: 8rem; }
+  .question-content { padding: 3.7rem 0.5rem 0.7rem; }
+  .question-pill { padding: 0.48rem 0.9rem; font-size: 0.88rem; }
+  .question-panel { gap: 0.55rem; }
+  .question-left { padding: 0.72rem; }
+  .question-title { font-size: 1rem; }
+  .question-prompt { font-size: 0.86rem; }
+  .choice-btn { min-height: 56px; padding: 0.5rem 0.56rem; }
+  .choice-index { width: 1.75rem; height: 1.75rem; font-size: 0.88rem; }
+  .choice-text { font-size: 0.84rem; }
+  .question-right { min-height: 180px; padding: 0.55rem; }
+  .code-wrap { font-size: 0.78rem; }
+  .question-footer { margin-top: 0.45rem; gap: 0.4rem; }
+  .back-btn { padding: 0.56rem 0.9rem; font-size: 0.78rem; }
+}
+
+@media (max-width: 480px) {
+  .question-content { padding-top: 3.5rem; }
+  .question-right { min-height: 150px; }
 }
 
 @media (max-width: 980px) {

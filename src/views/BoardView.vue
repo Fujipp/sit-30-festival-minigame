@@ -176,6 +176,29 @@ const toQuestionLabel = (index, id) => {
   box-shadow: 0 8px 22px rgba(7, 30, 60, 0.3);
 }
 
+
+@media (max-width: 1024px) {
+  .icon-top-left { width: 15rem; }
+  .icon-bottom-right { width: 11rem; }
+  .board-content { padding-top: 4.2rem; }
+  .question-button { min-height: 78px; }
+}
+
+@media (max-width: 768px) {
+  .icon-top-left { width: 11rem; top: 0.5rem; left: 0.7rem; }
+  .icon-bottom-left { width: 3.6rem; }
+  .icon-bottom-right { width: 8rem; }
+  .board-content { padding: 3.7rem 0.55rem 0.8rem; }
+  .board-title { font-size: 1.05rem; }
+  .question-grid { gap: 0.52rem; }
+  .question-button { min-height: 68px; font-size: 0.98rem; }
+}
+
+@media (max-width: 480px) {
+  .question-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .board-back { font-size: 0.75rem; padding: 0.45rem 0.78rem; }
+}
+
 @media (max-width: 900px) {
   .board-content { padding-top: 4.4rem; }
   .question-grid { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
