@@ -1110,7 +1110,7 @@
       "image": "/img/questions/level5_q05.png",
       "options": [
         "grid-template-areas:​   \"header header\"​   \"sidebar main\"​   \"footer footer\";",
-        "grid-template-areas:​   \"header header\"​   \"sidebar main\"​   \"footer footer\";",
+        "grid-araes:​   \"header header\"​   \"sidebar main\"​   \"footer footer\";",
         "grid-areas: header sidebar main footer;",
         "grid-template-columns:​   \"header\" \"sidebar\" \"main\" \"footer\";"
       ],
