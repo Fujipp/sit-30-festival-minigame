@@ -12,11 +12,21 @@ html,
 body,
 #app {
     width: 100%;
-    height: 100%;
-    overflow: hidden;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
     font-family: 'Outfit', 'Sarabun', sans-serif;
     color: #fff;
     background: #070c1a;
+}
+
+@media (min-width: 1024px) {
+    html,
+    body,
+    #app {
+        height: 100%;
+        overflow: hidden;
+    }
 }
 
 /* Global typography scale: make text larger across all pages */

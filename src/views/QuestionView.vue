@@ -159,7 +159,9 @@ const goBack = () => {
   inset: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
   background: center / cover no-repeat url('/img/SIT Festival Template.png');
 }
 
@@ -178,9 +180,9 @@ const goBack = () => {
   user-select: none;
 }
 
-.icon-top-left { top: 0.8rem; left: 1.2rem; width: 20rem; }
-.icon-bottom-left { bottom: 0; left: 0.4rem; width: 5rem; }
-.icon-bottom-right { right: -0.4rem; bottom: 0.4rem; width: 15rem; }
+.icon-top-left { top: 0.7rem; left: 1rem; width: clamp(9rem, 18vw, 19rem); }
+.icon-bottom-left { bottom: 0; left: 0.4rem; width: clamp(3.4rem, 8vw, 5rem); }
+.icon-bottom-right { right: -0.4rem; bottom: 0.4rem; width: clamp(8rem, 20vw, 15rem); }
 
 .question-content {
   position: relative;
@@ -188,8 +190,8 @@ const goBack = () => {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100%;
-  padding: 4.7rem clamp(0.8rem, 2.3vw, 1.7rem) 1rem;
+  min-height: 100%;
+  padding: clamp(3.5rem, 5vh, 4.7rem) clamp(0.7rem, 2.4vw, 1.7rem) clamp(0.9rem, 2.5vh, 1rem);
 }
 
 .question-header {
@@ -215,8 +217,9 @@ const goBack = () => {
   flex: 1;
   min-height: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: clamp(0.75rem, 1.2vw, 1.1rem);
+  align-items: stretch;
 }
 
 .question-left,
@@ -232,7 +235,7 @@ const goBack = () => {
 }
 
 .question-left {
-  padding: 1.1rem;
+  padding: clamp(0.85rem, 1.5vw, 1.1rem);
   display: flex;
   flex-direction: column;
   min-height: 0;
@@ -318,7 +321,7 @@ const goBack = () => {
 }
 
 .question-right {
-  padding: 0.85rem;
+  padding: clamp(0.65rem, 1.1vw, 0.9rem);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -338,7 +341,7 @@ const goBack = () => {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 1rem 1.05rem;
+  padding: clamp(0.8rem, 1.3vw, 1.05rem);
   overflow: auto;
   border-radius: 0.85rem;
   border: 1px solid rgba(133, 193, 255, 0.66);
@@ -424,38 +427,81 @@ const goBack = () => {
 }
 
 
-@media (max-width: 1200px) {
-  .icon-top-left { width: 15rem; }
-  .icon-bottom-right { width: 11rem; }
-  .question-content { padding-top: 4.2rem; }
+@media (max-width: 1280px) {
+  .question-content {
+    padding-top: 4.1rem;
+  }
 }
 
-@media (max-width: 768px) {
-  .icon-top-left { width: 11rem; top: 0.5rem; left: 0.7rem; }
-  .icon-bottom-left { width: 3.6rem; }
-  .icon-bottom-right { width: 8rem; }
-  .question-content { padding: 3.7rem 0.5rem 0.7rem; }
-  .question-pill { padding: 0.48rem 0.9rem; font-size: 0.88rem; }
-  .question-panel { gap: 0.55rem; }
-  .question-left { padding: 0.72rem; }
-  .question-title { font-size: 1rem; }
-  .question-prompt { font-size: 0.86rem; }
-  .choice-btn { min-height: 56px; padding: 0.5rem 0.56rem; }
-  .choice-index { width: 1.75rem; height: 1.75rem; font-size: 0.88rem; }
-  .choice-text { font-size: 0.84rem; }
-  .question-right { min-height: 180px; padding: 0.55rem; }
-  .code-wrap { font-size: 0.78rem; }
-  .question-footer { margin-top: 0.45rem; gap: 0.4rem; }
-  .back-btn { padding: 0.56rem 0.9rem; font-size: 0.78rem; }
+@media (max-width: 1024px) {
+  .question-panel {
+    grid-template-columns: 1fr;
+  }
+  .question-right {
+    min-height: 240px;
+  }
+}
+
+@media (max-width: 820px) {
+  .question-content {
+    padding: 3.5rem 0.65rem 0.8rem;
+  }
+  .question-pill {
+    padding: 0.56rem 1rem;
+    font-size: 0.92rem;
+  }
+  .question-left {
+    padding: 0.78rem;
+  }
+  .question-title {
+    font-size: 1.05rem;
+  }
+  .question-prompt {
+    font-size: 0.88rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .question-content {
+    padding: 3.2rem 0.5rem 0.65rem;
+  }
+  .question-panel {
+    gap: 0.6rem;
+  }
+  .choice-btn {
+    min-height: 58px;
+    padding: 0.55rem 0.65rem;
+  }
+  .choice-index {
+    width: 1.8rem;
+    height: 1.8rem;
+    font-size: 0.88rem;
+  }
+  .choice-text {
+    font-size: 0.85rem;
+  }
+  .question-right {
+    min-height: 190px;
+  }
+  .code-wrap {
+    font-size: 0.8rem;
+  }
+  .question-footer {
+    margin-top: 0.5rem;
+    gap: 0.45rem;
+  }
+  .back-btn {
+    padding: 0.58rem 0.9rem;
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 480px) {
-  .question-content { padding-top: 3.5rem; }
-  .question-right { min-height: 150px; }
-}
-
-@media (max-width: 980px) {
-  .question-panel { grid-template-columns: 1fr; }
-  .question-right { min-height: 240px; }
+  .question-content {
+    padding-top: 3rem;
+  }
+  .question-right {
+    min-height: 160px;
+  }
 }
 </style>

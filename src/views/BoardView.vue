@@ -64,7 +64,9 @@ const toQuestionLabel = (index, id) => {
   inset: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
   background: center / cover no-repeat url('/img/SIT Festival Template.png');
 }
 
@@ -83,9 +85,9 @@ const toQuestionLabel = (index, id) => {
   user-select: none;
 }
 
-.icon-top-left { top: 0.8rem; left: 1.2rem; width: 20rem; }
-.icon-bottom-left { bottom: 0; left: 0.4rem; width: 5rem; }
-.icon-bottom-right { right: -0.4rem; bottom: 0.4rem; width: 15rem; }
+.icon-top-left { top: 0.7rem; left: 1rem; width: clamp(9rem, 18vw, 19rem); }
+.icon-bottom-left { bottom: 0; left: 0.4rem; width: clamp(3.4rem, 8vw, 5rem); }
+.icon-bottom-right { right: -0.4rem; bottom: 0.4rem; width: clamp(8rem, 20vw, 15rem); }
 
 .board-content {
   position: relative;
@@ -93,8 +95,8 @@ const toQuestionLabel = (index, id) => {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100%;
-  padding: 4.7rem clamp(0.8rem, 2.2vw, 1.6rem) 1.1rem;
+  min-height: 100%;
+  padding: clamp(3.5rem, 5vh, 4.7rem) clamp(0.7rem, 2.2vw, 1.6rem) clamp(1rem, 3vh, 1.4rem);
 }
 
 .board-header {
@@ -117,10 +119,10 @@ const toQuestionLabel = (index, id) => {
 
 .question-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: clamp(0.75rem, 1.15vw, 1rem);
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: clamp(0.6rem, 1.1vw, 1rem);
   width: 100%;
-  max-width: 75%;
+  max-width: min(960px, 86vw);
   margin: 0;
   margin-inline: auto;
   padding: 0.25rem 0.2rem;
@@ -129,12 +131,12 @@ const toQuestionLabel = (index, id) => {
 }
 
 .question-button {
-  min-height: clamp(86px, 10.5vw, 118px);
+  min-height: clamp(86px, 10.5vw, 120px);
   border-radius: 1.05rem;
   border: 1px solid rgba(255, 255, 255, 0.36);
   color: #ffffff;
   font-family: 'Outfit', 'Sarabun', sans-serif;
-  font-size: clamp(1.18rem, 2.4vw, 1.68rem);
+  font-size: clamp(1.02rem, 2.4vw, 1.6rem);
   font-weight: 800;
   letter-spacing: 0.07em;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.29), rgba(130, 182, 227, 0.18));
@@ -180,43 +182,42 @@ const toQuestionLabel = (index, id) => {
 
 
 @media (max-width: 1024px) {
-  .icon-top-left { width: 15rem; }
-  .icon-bottom-right { width: 11rem; }
-  .board-content { padding-top: 4.2rem; }
-  .question-button { min-height: 78px; }
-}
-
-@media (max-width: 768px) {
-  .icon-top-left { width: 11rem; top: 0.5rem; left: 0.7rem; }
-  .icon-bottom-left { width: 3.6rem; }
-  .icon-bottom-right { width: 8rem; }
-  .board-content { padding: 3.7rem 0.55rem 0.8rem; }
-  .board-title { font-size: 1.05rem; }
-  .question-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    max-width: 92%;
-    gap: 0.52rem;
+  .board-content {
+    padding-top: 3.9rem;
   }
-  .question-button { min-height: 68px; font-size: 0.98rem; }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 820px) {
+  .board-title {
+    font-size: clamp(1rem, 4vw, 1.6rem);
+  }
+  .question-grid {
+    max-width: min(620px, 96%);
+    gap: 0.5rem;
+  }
+  .question-button {
+    min-height: 72px;
+    font-size: clamp(0.9rem, 3vw, 1.1rem);
+  }
+  .board-back {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.9rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .board-content {
+    padding: 3.3rem 0.4rem 0.8rem;
+  }
   .question-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    max-width: 96%;
   }
-  .board-back { font-size: 0.75rem; padding: 0.45rem 0.78rem; }
-}
-
-@media (max-width: 900px) {
-  .board-content { padding-top: 4.4rem; }
-  .question-grid { max-width: 88%; }
-}
-
-@media (max-width: 640px) {
-  .board-content { padding-top: 4.1rem; }
-  .board-header { margin-bottom: 0.85rem; }
-  .board-back { font-size: 0.82rem; padding: 0.5rem 0.9rem; }
-  .question-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .board-header {
+    margin-bottom: 0.75rem;
+  }
+  .board-back {
+    font-size: 0.78rem;
+    padding: 0.45rem 0.75rem;
+  }
 }
 </style>

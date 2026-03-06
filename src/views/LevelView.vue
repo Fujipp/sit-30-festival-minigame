@@ -45,7 +45,9 @@ const onSelect = (level) => {
   inset: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
   background: center / cover no-repeat url('/img/SIT Festival Template.png');
 }
 
@@ -65,9 +67,9 @@ const onSelect = (level) => {
 }
 
 .icon-top-left {
-  top: 0.8rem;
-  left: 1.2rem;
-  width: 20rem;
+  top: 0.7rem;
+  left: 1rem;
+  width: clamp(9rem, 18vw, 19rem);
 }
 
 .icon-button {
@@ -88,13 +90,13 @@ const onSelect = (level) => {
 .icon-bottom-left {
   bottom: 0;
   left: 0.4rem;
-  width: 5rem;
+  width: clamp(3.4rem, 8vw, 5rem);
 }
 
 .icon-bottom-right {
   right: -0.4rem;
   bottom: 0.4rem;
-  width: 15rem;
+  width: clamp(8rem, 20vw, 15rem);
 }
 
 .level-content {
@@ -107,7 +109,7 @@ const onSelect = (level) => {
   gap: clamp(1.2rem, 2.2vh, 1.9rem);
   width: 100%;
   height: 100%;
-  padding: 4.5rem 1rem 2rem;
+  padding: clamp(3.5rem, 6vh, 4.5rem) clamp(0.75rem, 3vw, 1.4rem) clamp(1.5rem, 4vh, 2.1rem);
 }
 
 .level-title {
@@ -122,21 +124,21 @@ const onSelect = (level) => {
 
 .level-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: clamp(0.6rem, 1.5vw, 1rem);
   width: 100%;
-  max-width: 75%;
+  max-width: min(960px, 85vw);
   margin-inline: auto;
 }
 
 .level-button {
   width: 100%;
-  padding: 0.95rem 1.1rem;
+  padding: clamp(0.75rem, 1.5vw, 1rem) clamp(0.9rem, 2vw, 1.15rem);
   border-radius: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.4);
   color: #ffffff;
   font-family: 'Outfit', 'Sarabun', sans-serif;
-  font-size: clamp(1rem, 2.2vw, 1.28rem);
+  font-size: clamp(0.95rem, 2.5vw, 1.25rem);
   font-weight: 700;
   letter-spacing: 0.08em;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.28), rgba(130, 182, 227, 0.16));
@@ -164,25 +166,38 @@ const onSelect = (level) => {
 
 
 @media (max-width: 1024px) {
-  .icon-top-left { width: 15rem; }
-  .icon-bottom-right { width: 11rem; }
-  .level-content { padding-top: 4rem; }
-  .level-button { padding: 0.82rem 0.95rem; }
+  .level-content {
+    padding-top: 3.7rem;
+    gap: 1rem;
+  }
+  .level-title {
+    font-size: clamp(1.5rem, 5vw, 2.8rem);
+  }
 }
 
 @media (max-width: 768px) {
-  .icon-top-left { width: 11rem; top: 0.5rem; left: 0.7rem; }
-  .icon-bottom-left { width: 3.6rem; }
-  .icon-bottom-right { width: 8rem; }
-  .level-content { padding-top: 3.4rem; gap: 0.9rem; }
-  .level-title { letter-spacing: 0.09em; }
-  .level-grid { gap: 0.55rem; max-width: 92%; }
-  .level-button { min-width: 110px; font-size: 0.95rem; }
+  .level-content {
+    padding: 3.2rem 0.9rem 1.4rem;
+    justify-content: flex-start;
+  }
+  .level-grid {
+    max-width: min(520px, 100%);
+  }
+  .level-title {
+    letter-spacing: 0.08em;
+  }
 }
 
-@media (max-width: 480px) {
-  .level-content { padding-top: 3rem; }
-  .level-grid { max-width: 96%; padding-inline: 0.25rem; }
-  .level-button { min-width: 102px; padding: 0.7rem 0.8rem; }
+@media (max-width: 520px) {
+  .level-content {
+    padding-top: 2.8rem;
+    gap: 0.85rem;
+  }
+  .level-grid {
+    gap: 0.5rem;
+  }
+  .level-button {
+    font-size: 0.9rem;
+  }
 }
 </style>
